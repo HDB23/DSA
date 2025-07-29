@@ -15,12 +15,12 @@ while True:
 
         # 2. Perform the search using the 'in' operator
         if key in customerID:
-            print(f"✅ ID {key} Found.")
+            print(f"ID {key} Found.")
         else:
-            print(f"❌ ID {key} Not Found.")
+            print(f"ID {key} Not Found.")
 
     # 3. Handle cases where input is not a valid integer
     except ValueError:
-        print("⚠️ Invalid input! Please enter a whole number.")
+        print("Please enter integer value !")
 
 print("\nThanks for using this program!")
