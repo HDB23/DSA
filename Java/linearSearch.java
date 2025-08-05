@@ -35,5 +35,6 @@ public class linearSearch{
         {
             System.out.println("Please enter integer value !");
         }
+        sc.close();
     }
 }
