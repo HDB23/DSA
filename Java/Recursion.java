@@ -4,12 +4,12 @@ public class Recursion
 {
     public static void printNum(int n)
     {
-        if(n == 0)
+        if(n == 0)                  // Final Condition
         {
-            return;
+            return;                 // Return output to the main function
         }
-        System.out.println(n);
-        printNum(n-1);
+        System.out.println(n);      // Initial Statement
+        printNum(n-1);              // Callback
     }
     public static void main(String[] args)
     {
